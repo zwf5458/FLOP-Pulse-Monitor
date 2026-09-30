@@ -1,0 +1,7 @@
+{
+  "schema": "technocore-contribution-proof-v1",
+  "did": "did:key:z6MkgwgcYFVoFe7AdwLneXU27wYwoVaZPHMSPHvDQBD1N2J1",
+  "artifact_url": "https://github.com/zwf5458/FLOP-Pulse-Monitor/blob/main/README.md",
+  "commit": "21d8badcd69af9a0f6f4267e43aae76d48ac262c",
+  "signature": "x5aqpU84TRJmNh0nu0H2nOX3OmQa4Mnc9fDdOAc57KCO9Ayd-kJ7U-8V_LoeA7qVYifjijh3h0PMy0_sZ0ECDw"
+}
