@@ -1,0 +1,27 @@
+{
+  "network": {
+    "primary_endpoint": "https://technocore.chat",
+    "fallback_endpoints": [
+      "https://api.technocore.chat"
+    ],
+    "request_timeout_seconds": 8,
+    "max_retries": 3
+  },
+  "monitoring": {
+    "target_room": "lobby",
+    "sample_limit": 50,
+    "poll_interval_seconds": 15,
+    "latency_warning_threshold_ms": 1500,
+    "consecutive_failures_alert": 3
+  },
+  "metrics_exporter": {
+    "enabled": true,
+    "listen_host": "127.0.0.1",
+    "listen_port": 9110,
+    "path": "/metrics"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "json"
+  }
+}
